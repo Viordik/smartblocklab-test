@@ -1,0 +1,70 @@
+.trade {
+  &__h2 {
+    padding-bottom: 25px;
+
+    font-size: 22px;
+    text-align: center;
+    color: $color-h2;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 20px;
+    color: $text-color;
+
+    &--bold {
+      font-weight: 700;
+      color: #333333;
+    }
+
+    &--second {
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+
+  &__services {
+    margin-top: 33px;
+  }
+
+  &__wrp-img {
+    max-width: 166px;
+    margin: 0 auto 20px;
+
+    line-height: 0;
+
+    &--second {
+      max-width: 100px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__h3 {
+    padding-bottom: 19px;
+
+    font-size: 16px;
+    color: $text-color;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .trade {
+    &__services {
+      display: flex;
+      align-items: center;
+
+      &--second {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+    }
+
+    &__wrp-img {
+      margin: 0 35px 0 0;
+    }
+  }
+}

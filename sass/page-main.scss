@@ -1,0 +1,17 @@
+$color-h2: #464646;
+$color-h2-second: #545454;
+$text-color: #5F5F5F;
+
+
+.page-main {
+  max-width: 800px;
+  margin: 27px auto 0;
+  padding: 0 20px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .page-main {
+    padding: 0;
+  }
+}
